@@ -29,6 +29,12 @@ test('array single argument returns itself unchanged', function (t) {
   t.end();
 });
 
+test('single argument non-array becomes an array containing itself', function (t) {
+  var result = array(10);
+  t.same(result, [10]);
+  t.end();
+});
+
 test('undefined argument as first of many arguments returns array of all args', function (t) {
   var result = array(undefined, 1, 'two');
   t.same(result, [undefined, 1, 'two']);
