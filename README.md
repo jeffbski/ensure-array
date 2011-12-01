@@ -70,7 +70,7 @@ Here is the actual code which makes it happen
 
 ## Status
 
- - 2011-11-07 - No known issues
+ - 2011-12-01 - 0.0.3  - Updated to support any version of Node.js
  
 
 ## License
