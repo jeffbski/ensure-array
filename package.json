@@ -2,7 +2,7 @@
   "author": "Jeff Barczewski <jeff.barczewski@gmail.com>",
   "name": "ensure-array",
   "description": "Ensure that an object is an array. Moves error checking out of your code.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": { "type": "git", "url": "http://github.com/jeffbski/ensure-array.git" }, 
   "bugs" : { "url": "http://github.com/jeffbski/ensure-array/issues" }, 
   "main": "ensure-array.js",
@@ -11,8 +11,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "~0.1.0",
-    "tapr": "~0.1.0"
+    "tap": "~0.1.2",
+    "tapr": "~0.1.1"
   },
   "scripts": {
     "test" : "node_modules/.bin/tapr ./test"

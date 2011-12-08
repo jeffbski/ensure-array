@@ -70,6 +70,7 @@ Here is the actual code which makes it happen
 
 ## Status
 
+ - 2011-12-08 - 0.0.4  - Update tapr / tap versions
  - 2011-12-01 - 0.0.3  - Updated to support any version of Node.js
  
 
