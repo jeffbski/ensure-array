@@ -2,19 +2,19 @@
   "author": "Jeff Barczewski <jeff.barczewski@gmail.com>",
   "name": "ensure-array",
   "description": "Ensure that an object is an array. Moves error checking out of your code.",
-  "version": "0.0.4",
-  "repository": { "type": "git", "url": "http://github.com/jeffbski/ensure-array.git" }, 
-  "bugs" : { "url": "http://github.com/jeffbski/ensure-array/issues" }, 
+  "version": "0.0.5",
+  "repository": { "type": "git", "url": "http://github.com/jeffbski/ensure-array.git" },
+  "bugs" : { "url": "http://github.com/jeffbski/ensure-array/issues" },
   "main": "ensure-array.js",
   "engines": {
     "node": "*"
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "~0.1.2",
-    "tapr": "~0.1.1"
+    "mocha": "~0.14.1",
+    "chai": "~0.5.2"
   },
   "scripts": {
-    "test" : "node_modules/.bin/tapr ./test"
+    "test": "./node_modules/mocha/bin/mocha ./test/*.mocha.js"
   }
 }
