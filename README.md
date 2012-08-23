@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/jeffbski/ensure-array.png)](http://travis-ci.org/jeffbski/ensure-array)
 # ensure-array
 
 Simple convenience function which ensures that you are dealing with an array and you can 
