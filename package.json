@@ -16,6 +16,6 @@
     "chai": "~4.1.0"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./test/*.mocha.js"
+    "test": "./node_modules/mocha/bin/mocha ./test/*.mocha.js --reporter spec --ui qunit"
   }
 }
