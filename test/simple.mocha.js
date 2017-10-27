@@ -1,15 +1,15 @@
 'use strict';
 /*global ensureArray:true */
 
-if (typeof(chai) === 'undefined') {
+if (typeof (chai) === 'undefined') {
   var chai = require('chai');
 }
 
-if (typeof(react) === 'undefined') {
+if (typeof (react) === 'undefined') {
   var react = require('../'); //require('react');
 }
 
-if (typeof(ensureArray) === 'undefined') {
+if (typeof (ensureArray) === 'undefined') {
   var ensureArray = require('../ensure-array.js');
 }
 
