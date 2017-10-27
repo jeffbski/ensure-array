@@ -3,6 +3,7 @@
   "name": "ensure-array",
   "description": "Ensure that an object is an array. Moves error checking out of your code.",
   "version": "0.0.5",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "http://github.com/jeffbski/ensure-array.git"
