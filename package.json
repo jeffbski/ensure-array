@@ -3,18 +3,20 @@
   "name": "ensure-array",
   "description": "Ensure that an object is an array. Moves error checking out of your code.",
   "version": "0.0.5",
-  "repository": { "type": "git", "url": "http://github.com/jeffbski/ensure-array.git" },
-  "bugs" : { "url": "http://github.com/jeffbski/ensure-array/issues" },
-  "main": "ensure-array.js",
-  "engines": {
-    "node": "*"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jeffbski/ensure-array.git"
   },
-  "dependencies": {},
+  "bugs": {
+    "url": "http://github.com/jeffbski/ensure-array/issues"
+  },
+  "main": "ensure-array.js",
   "devDependencies": {
-    "mocha": "~0.14.1",
-    "chai": "~0.5.2"
+    "mocha": "~4.0.0",
+    "chai": "~4.1.0"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./test/*.mocha.js"
+    "test": "./node_modules/mocha/bin/mocha ./test/*.mocha.js --reporter spec --ui qunit"
   }
 }
