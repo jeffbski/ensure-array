@@ -2,7 +2,7 @@
   "author": "Jeff Barczewski <jeff.barczewski@gmail.com>",
   "name": "ensure-array",
   "description": "Ensure that an object is an array. Moves error checking out of your code.",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
