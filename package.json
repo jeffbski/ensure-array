@@ -13,7 +13,7 @@
   },
   "main": "ensure-array.js",
   "devDependencies": {
-    "mocha": "~4.0.0",
+    "mocha": "~10.2.0",
     "chai": "~4.1.0"
   },
   "scripts": {
